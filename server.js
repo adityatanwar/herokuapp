@@ -5,5 +5,5 @@ app.get("/",function(req,res){
     res.send("Hello from the backend,Yay");
 });
 app.listen(port,function(){
-    console.log('Server is running');
+    console.log('Server is running')
 });
